@@ -1,0 +1,21 @@
+# Binaries
+/auto-message
+/auto-message.exe
+
+# Build output
+/dist/
+
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+
+# Config with real tokens (safety net)
+config.json
+
+# Tool artifacts
+.gstack/
+.agents/
+.claude/
+skills-lock.json

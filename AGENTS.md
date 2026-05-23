@@ -6,10 +6,18 @@ This is a public Go CLI project for sending Telegram bot notifications from term
 
 The tool must be simple, stable, and easy to install or update with a single command.
 
+## Repository Structure
+
+```
+packages/
+  cli/        — Go CLI source, go.mod, goreleaser config
+  website/    — Astro marketing site (Tailwind 4, TypeScript)
+```
+
 ## Tech Stack
 
-- Language: Go
-- CLI style: single binary
+- CLI: Go, Cobra
+- Website: Astro 6, Tailwind 4, TypeScript
 - Config: environment variables and optional config file
 - Distribution: GitHub Releases
 - Versioning: Semantic Versioning
@@ -69,3 +77,4 @@ When changing this project:
 - Update CHANGELOG for user-facing changes
 - Prefer small, focused pull requests
 - Do not introduce unnecessary frameworks
+- Website changes are part of every feature — any change to CLI flags, config structure, or documented behavior must be reflected in the website
