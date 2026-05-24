@@ -3,7 +3,8 @@
 /auto-message.exe
 
 # Build output
-/dist/
+dist/
+.astro/
 
 # Dependencies
 node_modules/
